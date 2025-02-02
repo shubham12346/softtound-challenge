@@ -27,15 +27,13 @@ const GeneratePattern = ({ matrixSize }) => {
     let matrix = Array.from({ length: ms }, () => Array(ms).fill("0"));
     for (let row = 0; row < ms; row++) {
       for (let col = 0; col < ms; col++) {
-        matrix[ms - 1 - col][row] = inputArray[row][col];
-        // matrix[row][col] = inputArray[col][ms - row - 1];
+        matrix[col][ms - row - 1] = inputArray[row][col];
       }
     }
     return matrix;
   };
 
   let outPutArray = generateFormattedMatrix();
-  console.log("outPutArray", outPutArray);
 
   return (
     <div>
