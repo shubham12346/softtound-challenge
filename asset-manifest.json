@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/softtound-challenge/static/css/main.3f489e19.css",
+    "main.js": "/softtound-challenge/static/js/main.f2b4a1aa.js",
+    "static/js/563.873a1803.chunk.js": "/softtound-challenge/static/js/563.873a1803.chunk.js",
+    "index.html": "/softtound-challenge/index.html",
+    "main.3f489e19.css.map": "/softtound-challenge/static/css/main.3f489e19.css.map",
+    "main.f2b4a1aa.js.map": "/softtound-challenge/static/js/main.f2b4a1aa.js.map",
+    "563.873a1803.chunk.js.map": "/softtound-challenge/static/js/563.873a1803.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f489e19.css",
+    "static/js/main.f2b4a1aa.js"
+  ]
+}
